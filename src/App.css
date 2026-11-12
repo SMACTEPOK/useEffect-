@@ -1,0 +1,7 @@
+.app { min-height: 100vh; display: flex; flex-direction: column; background: var(--color-background); color: var(--color-text); }
+.app__header { display: flex; justify-content: space-between; align-items: center; padding: 18px 28px; background: var(--color-ink); border-bottom: 3px solid var(--color-border); }
+.app__brand { display: flex; align-items: center; gap: 10px; font-family: var(--font-body); font-size: 20px; font-weight: 700; text-transform: uppercase; color: var(--color-white); }
+.app__brand-mark { display: grid; place-items: center; width: 34px; height: 34px; background: var(--color-white); color: var(--color-ink); font-size: 18px; }
+.app__brand-tag { font-family: var(--font-mono); font-size: 10px; background: var(--color-accent); color: var(--color-ink); padding: 4px 8px; }
+.app__main { flex: 1; }
+.app__footer { padding: 16px 28px; background: var(--color-ink); border-top: 3px solid var(--color-border); text-align: center; font-family: var(--font-mono); font-size: 10px; color: var(--color-muted); }
